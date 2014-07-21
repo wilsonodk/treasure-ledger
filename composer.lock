@@ -1,0 +1,142 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1ddc2abfb5b910126bbe4c09db458384",
+    "packages": [
+        {
+            "name": "sofadesign/limonade",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sofadesign/limonade.git",
+                "reference": "9ceb06534ca650fb6fd10da79910d957fab47f75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sofadesign/limonade/zipball/9ceb06534ca650fb6fd10da79910d957fab47f75",
+                "reference": "9ceb06534ca650fb6fd10da79910d957fab47f75",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/limonade.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "a PHP micro-framework",
+            "homepage": "https://github.com/sofadesign/limonade",
+            "keywords": [
+                "microframework"
+            ],
+            "time": "2014-06-25 10:03:34"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "60e91ba6918170ada88c66501af85d7c10b94a13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/60e91ba6918170ada88c66501af85d7c10b94a13",
+                "reference": "60e91ba6918170ada88c66501af85d7c10b94a13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2012-09-28 20:11:39"
+        },
+        {
+            "name": "wodk/wodk",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wilsonodk/wodk.git",
+                "reference": "6a416006a5f66453f1ca3871939c1d7d0cc4bf56"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Wodk_": "lib/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Wilson Wise",
+                    "email": "wilson@odk.com",
+                    "homepage": "http://wilson.odk.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "database",
+                "logger",
+                "mysqli",
+                "twig",
+                "wodk"
+            ],
+            "support": {
+                "email": "wilson@odk.com",
+                "issues": "https://github.com/wilsonodk/wodk/issues"
+            },
+            "time": "2013-11-04 16:12:57"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sofadesign/limonade": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

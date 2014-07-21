@@ -1,0 +1,8 @@
+.DS_Store
+db-prod.php
+db-dev.php
+*.log
+*.tar.gz
+BUILD_VERSION.txt
+ENVIRONMENT.txt
+vendor

@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; }
+
+body { font-family: Verdana; background-color: #fff; margin-bottom: 20px; }
+h1 { font-size: 24px; padding: 10px 20px; color: #eee; background-color: #999; }
+h2 { font-size: 16px; padding: 10px 20px; background-color: #ccc; }
+h3 { font-size: 14px; margin: 10px 0 0 20px; }
+p { font-size: 14px; margin: 10px 20px; }
+
+.clear-all { clear: both; }
+.c { text-align: center; }
+.disable { color: #999; }
+
+#bottom { width: 100%; position: fixed; bottom: 0; left: 0; padding: 10px; margin: 0 auto; background-color: #333; color: #eee; }
+    #bottom p { font-size: 10px; margin: 0; color: #999; }
+    #bottom a, #bottom a:link, #bottom a:visited { color: #ccc; }
+    #bottom a:hover, #bottom a:active { text-decoration: none; }
+
+#message { margin: 10px; background-color: #cfc; border: 2px solid #090; width: 350px; }
+    #message h2 { background-color: #090; color: #fff; }
+    #message p { color: #090; }
+
+#error { margin: 10px; background-color: #fcc; border: 2px solid #900; width: 350px; }
+    #error h2 { background-color: #900; color: #fff; }
+    #error p { color: #900; }
+
+#notes { max-height: 250px; overflow-y: auto; }
+#notes p { font-size: 10px; margin: 5px 20px; }
+
+.area { height: 500px; width: 300px; }
